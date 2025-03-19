@@ -1,3 +1,7 @@
-# Set up ambiente
-python3 -m venv venv
-source venv/bin/activate
+.PHONY: venv install
+
+venv:
+	python3 -m venv venv
+
+install:
+	pip install -r requirements.txt
