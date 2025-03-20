@@ -1,15 +1,13 @@
+from django.shortcuts import get_object_or_404
 from .models import Doctor
 
 class DoctorService:
+    # Não há validações de formulário pois o projeto tem apenas GETs.
+    
     @staticmethod
-    def create(data):
-        doctor = Doctor.objects.create(**data)
-        return doctor
-        
+    def get_all():
+        return Doctor.objects.all()
+
     @staticmethod
-    def update(data, id):
-        doctor = Doctor.objects.get(id=id)
-        doctor.nome = data['nome']
-        doctor.imagem = data['imagem']
-        doctor.save()
-        return doctor
+    def get_by_id(id):
+        return get_object_or_404(Doctor, id=id)
