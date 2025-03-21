@@ -1,5 +1,3 @@
-.PHONY: venv install
-
 venv:
 	python3 -m venv venv
 
