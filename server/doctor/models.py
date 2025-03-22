@@ -30,13 +30,14 @@ class Doctor(m.Model):
     nome = m.CharField(max_length=100)
     especialidade = m.CharField(max_length=3, choices=ESPECIALIDADE)
     valor = m.FloatField()
-    tempo = m.IntegerField()
+    tempo = m.IntegerField() # da consulta, minutos
 
     # header
+    visualizacoes = m.IntegerField()
     crm = m.CharField(max_length=20)
     cidade = m.CharField(max_length=100)
     estado = m.CharField(max_length=2)
-    nota = m.FloatField()
+    nota = m.FloatField() # média das avaliações, 0 a 5
     instagram = m.URLField(max_length=2000)
     facebook = m.URLField(max_length=2000)
 

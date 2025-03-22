@@ -15,10 +15,23 @@ class DoctorSerializer(s.ModelSerializer):
         read_only_fields = ['dataCriacao']
 
     def validate(self, data):
-        required_fields = ['nome', 'foto', 'especialidade', 'valor', 'tempo', 
-                         'crm', 'cidade', 'estado', 'nota', 'instagram', 
-                         'facebook', 'descricao', 'patologias', 'atendimentos', 
-                         'convenio', 'retorno', 'experiencia_cannabis']
+        required_fields = [
+            'nome',
+            'foto',
+            'especialidade',
+            'valor',
+            'tempo',
+            'visualizacoes',
+            'crm',
+            'cidade',
+            'estado',
+            'nota',
+            'patologias',
+            'atendimentos',
+            'convenio',
+            'retorno',
+            'experiencia_cannabis',
+            ]
         
         for field in required_fields:
             if field not in data or not data[field]:
