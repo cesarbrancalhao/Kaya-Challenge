@@ -24,20 +24,20 @@ make install
 Create a `.env` file in the root directory and add the following variables:
 ```bash
 DEBUG=True
-SECRET_KEY=your_secret_key
-DATABASE_URL=your_database_url
-SECRET_KEY=your-secret-key
-DB_NAME=your-db-name
-DB_USER=your-db-user
-DB_PASSWORD=your-db-password
+DB_NAME=kaya
+DB_USER=postgres
+DB_PASSWORD=password
 DB_HOST=localhost
 DB_PORT=5432
 ```
 
+3.5 Create a docker Postgres container if you don't have a database set up:
+```bash
+make up
+```
+
 4. Apply database migrations and run the development server:
 ```bash
-cd server
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver
+make migration
+make run
 ```

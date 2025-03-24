@@ -3,9 +3,9 @@
         "foto": "https://saude-kayamind-minio.aqrour.easypanel.host/kayadoc/media/medic_photos/Ricardo_Gurgel.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=tEE1iyojY34tOfrnfIPQ%2F20250324%2Fbrazil%2Fs3%2Faws4_request&X-Amz-Date=20250324T052601Z&X-Amz-Expires=588000&X-Amz-SignedHeaders=host&X-Amz-Signature=7852915c3886e1b24d815a09b8e53467bd5c2cf30d7170198fe77a3b102f3d94",
         "nome": "Ricardo Freire Gurgel",
         "especialidade": "CG",
-        "valor": 300.00,
+        "valor": 500.00,
         "tempo": 30,
-        "visualizacoes": 150,
+        "visualizacoes": 509,
         "crm": "CRM 103721",
         "cidade": "São Paulo",
         "estado": "SP",
@@ -20,47 +20,47 @@
         "experiencia_cannabis": "Ampla experiência em Saúde Integrativa, combinando abordagens convencionais e complementares para promover o bem-estar integral dos pacientes."
     },
     {
-        "foto": "#",
-        "nome": "Amanda Silva Mendes",
-        "especialidade": "MI",
-        "valor": 350.00,
-        "tempo": 45,
-        "visualizacoes": 210,
-        "crm": "CRM 98432",
+        "foto": "https://saude-kayamind-minio.aqrour.easypanel.host/kayadoc/media/medic_photos/Dra._Isabela_Junqueira.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=tEE1iyojY34tOfrnfIPQ%2F20250324%2Fbrazil%2Fs3%2Faws4_request&X-Amz-Date=20250324T205059Z&X-Amz-Expires=588000&X-Amz-SignedHeaders=host&X-Amz-Signature=e9a5a85ce990c3933789a991b41e46e1b6a87894bd641b90d340ad55a7b7eeec",
+        "nome": "Isabela Junqueira",
+        "especialidade": "FC",
+        "valor": 539.00,
+        "tempo": 60,
+        "visualizacoes": 245,
+        "crm": "CRM 1098918",
         "cidade": "Rio de Janeiro",
         "estado": "RJ",
-        "nota": 5,
+        "nota": 4,
         "instagram": "https://instagram.com/",
         "facebook": "https://facebook.com/",
-        "descricao": "Médica formada pela USP com especialização em Medicina Integrativa e Cannabis Medicinal pela Universidade de Barcelona.",
+        "descricao": "Médica de Família e Comunidade com Pós graduação em Cannabis Sativa pela SBEC e Pós Graduação em Bases da Saúde e Bem-Estar pelo Einstein..",
         "patologias": ["Fibromialgia", "Epilepsia", "Esclerose múltipla", "Parkinson"],
         "atendimentos": ["all"],
-        "convenio": true,
-        "retorno": 30,
-        "experiencia_cannabis": "Mais de 8 anos de experiência com tratamentos à base de cannabis para condições neurológicas e dor crônica."
+        "convenio": false,
+        "retorno": 45,
+        "experiencia_cannabis": "Ampla experiência no campo da medicina integrativa. Graduada em Medicina pela Universidade Estadual do Rio de Janeiro, pós-graduada em Bases da Saúde e Bem-Estar."
     },
     {
-        "foto": "#",
-        "nome": "Carlos Eduardo Martins",
+        "foto": "https://saude-kayamind-minio.aqrour.easypanel.host/kayadoc/media/medic_photos/bruno.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=tEE1iyojY34tOfrnfIPQ%2F20250324%2Fbrazil%2Fs3%2Faws4_request&X-Amz-Date=20250324T205059Z&X-Amz-Expires=588000&X-Amz-SignedHeaders=host&X-Amz-Signature=c02369ae94413cfcb2c2f4390f211d934fd44368620d5c800eccfcffdc5c542e",
+        "nome": "Bruno Paladini",
         "especialidade": "PC",
-        "valor": 400.00,
-        "tempo": 60,
-        "visualizacoes": 320,
-        "crm": "CRM 76543",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
+        "valor": 800.00,
+        "tempo": 90,
+        "visualizacoes": 380,
+        "crm": "CRM 199359",
+        "cidade": "São Paulo",
+        "estado": "SP",
         "nota": 5,
         "instagram": "https://instagram.com/",
         "facebook": "https://facebook.com/",
-        "descricao": "Psiquiatra formado pela UFMG com pós-graduação em Medicina Canabinóide pela Universidade do Colorado.",
+        "descricao": "Bruno Paladini é médico de família, com conhecimento aprofundado no uso dos canabinoides. Já atendeu pacientes de todo o Brasil nas mais diferentes especialidades e patologias e faz um trabalho intenso com pacientes de Saúde Mental.",
         "patologias": ["Ansiedade", "Depressão", "TDAH", "Transtorno bipolar"],
         "atendimentos": ["Adolescentes", "Adultos", "Idosos"],
         "convenio": false,
-        "retorno": 45,
-        "experiencia_cannabis": "Pioneiro em pesquisas sobre o uso de canabinoides para transtornos psiquiátricos no Brasil."
+        "retorno": 90,
+        "experiencia_cannabis": "Médico de Família e Comunidade com graduação e especialização pela Uniara - Araraquara/SP, cuidando de pessoas com as mais diversas patologias, incluindo doenças dermatológicas, neurológicas, saúde mental."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Fernanda Costa Lima",
         "especialidade": "FI",
         "valor": 380.00,
@@ -80,7 +80,7 @@
         "experiencia_cannabis": "Integra tratamentos com cannabis em protocolos funcionais para condições inflamatórias e autoimunes."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Rafael Oliveira Santos",
         "especialidade": "GE",
         "valor": 280.00,
@@ -100,7 +100,7 @@
         "experiencia_cannabis": "Desenvolve protocolos personalizados baseados no perfil endocanabinóide de cada paciente."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Juliana Pereira Almeida",
         "especialidade": "FC",
         "valor": 250.00,
@@ -120,7 +120,7 @@
         "experiencia_cannabis": "Utiliza cannabis como parte de uma abordagem holística para condições crônicas em pacientes de todas as idades."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Marcelo Ribeiro Campos",
         "especialidade": "PS",
         "valor": 320.00,
@@ -140,7 +140,7 @@
         "experiencia_cannabis": "Desenvolve pesquisas sobre o impacto social do uso medicinal da cannabis no sistema de saúde brasileiro."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Luciana Ferreira Dias",
         "especialidade": "DT",
         "valor": 200.00,
@@ -160,7 +160,7 @@
         "experiencia_cannabis": "Pioneira no uso de canabinoides para tratamento de dores orofaciais e ansiedade relacionada a procedimentos odontológicos."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "André Moreira Cardoso",
         "especialidade": "MT",
         "valor": 270.00,
@@ -180,7 +180,7 @@
         "experiencia_cannabis": "Desenvolve protocolos para reabilitação de trabalhadores com dores crônicas utilizando canabinoides."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Patrícia Soares Vieira",
         "especialidade": "FC2",
         "valor": 290.00,
@@ -200,7 +200,7 @@
         "experiencia_cannabis": "Integra conhecimentos tradicionais amazônicos com medicina canabinóide para tratamentos personalizados."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Bruno Alves Monteiro",
         "especialidade": "CG",
         "valor": 240.00,
@@ -220,7 +220,7 @@
         "experiencia_cannabis": "Especialista em ajuste de dosagens e formulações personalizadas para condições metabólicas."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Camila Rocha Pinto",
         "especialidade": "PS2",
         "valor": 330.00,
@@ -240,7 +240,7 @@
         "experiencia_cannabis": "Referência nacional em tratamentos com cannabis para transtornos do neurodesenvolvimento."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Gustavo Nunes Ferreira",
         "especialidade": "FC1",
         "valor": 260.00,
@@ -260,7 +260,7 @@
         "experiencia_cannabis": "Desenvolve protocolos de tratamento adaptados à realidade socioeconômica da região amazônica."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Renata Barros Oliveira",
         "especialidade": "MI",
         "valor": 370.00,
@@ -280,7 +280,7 @@
         "experiencia_cannabis": "Especialista em cuidados paliativos e uso de cannabis como adjuvante em tratamentos oncológicos."
     },
     {
-        "foto": "#",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_JlCFnIGX5omgjEjgV9F3sBRq14eTERK9w&s",
         "nome": "Felipe Teixeira Gomes",
         "especialidade": "GE",
         "valor": 310.00,

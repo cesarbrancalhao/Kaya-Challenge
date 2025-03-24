@@ -184,3 +184,7 @@ yarn.lock
 #vs
 .vscode/
 .vs/
+
+#docker
+init
+init/*

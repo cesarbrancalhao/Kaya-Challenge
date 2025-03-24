@@ -1,0 +1,205 @@
+[
+    {
+        "doctor_id": 1,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade Federal de São Paulo (UNIFESP)",
+                "curso": "Uso Medicinal da Cannabis"
+            }
+        ]
+    },
+    {
+        "doctor_id": 2,
+        "formations": [
+            {
+                "instituicao": "Universidade Estadual do Rio de Janeiro",
+                "curso": "Graduação em Médica de Família e Comunidade"
+            },
+            {
+                "instituicao": "IEP Albert Einstein",
+                "curso": "Pós graduação em Bases da Saúde e Bem-Estar & Medicina Integrativa"
+            }
+        ]
+    },
+    {
+        "doctor_id": 3,
+        "formations": [
+            {
+                "instituicao": "Universidade de Araraquara (UNIARA)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UNIARA",
+                "curso": "Especialização em Medicina de Família e Comunidade"
+            }
+        ]
+    },
+    {
+        "doctor_id": 4,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Paraná (UFPR)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Institute for Functional Medicine (IFM)",
+                "curso": "Especialização em Medicina Funcional"
+            }
+        ]
+    },
+    {
+        "doctor_id": 5,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal da Bahia (UFBA)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade de Tel Aviv",
+                "curso": "Especialização em Sistema Endocanabinóide"
+            }
+        ]
+    },
+    {
+        "doctor_id": 6,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal de Pernambuco (UFPE)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UFPE",
+                "curso": "Especialização em Medicina de Família"
+            }
+        ]
+    },
+    {
+        "doctor_id": 7,
+        "formations": [
+            {
+                "instituicao": "Universidade de Brasília (UnB)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UnB",
+                "curso": "Mestrado em Saúde Pública"
+            },
+            {
+                "instituicao": "WeCann Academy",
+                "curso": "Especialização em Cannabis Medicinal"
+            }
+        ]
+    },
+    {
+        "doctor_id": 8,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+                "curso": "Graduação em Odontologia"
+            },
+            {
+                "instituicao": "UFRGS",
+                "curso": "Especialização em Dor Orofacial"
+            }
+        ]
+    },
+    {
+        "doctor_id": 9,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Ceará (UFC)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade de Leiden",
+                "curso": "Especialização em Medicina Canabinóide"
+            }
+        ]
+    },
+    {
+        "doctor_id": 10,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Amazonas (UFAM)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UFAM",
+                "curso": "Especialização em Fitoterapia e Cannabis Medicinal"
+            }
+        ]
+    },
+    {
+        "doctor_id": 11,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal de Goiás (UFG)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade de Sevilha",
+                "curso": "Pós-graduação em Endocanabinologia"
+            }
+        ]
+    },
+    {
+        "doctor_id": 12,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal de Santa Catarina (UFSC)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UFSC",
+                "curso": "Doutorado em Saúde Coletiva"
+            }
+        ]
+    },
+    {
+        "doctor_id": 13,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Pará (UFPA)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade de Coimbra",
+                "curso": "Especialização em Cannabis Medicinal"
+            }
+        ]
+    },
+    {
+        "doctor_id": 14,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Rio Grande do Norte (UFRN)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "Universidade do Arizona",
+                "curso": "Mestrado em Medicina Integrativa"
+            }
+        ]
+    },
+    {
+        "doctor_id": 15,
+        "formations": [
+            {
+                "instituicao": "Universidade Federal do Espírito Santo (UFES)",
+                "curso": "Graduação em Medicina"
+            },
+            {
+                "instituicao": "UFES",
+                "curso": "Especialização em Medicina Esportiva"
+            },
+            {
+                "instituicao": "Sociedade Brasileira de Endocanabinologia",
+                "curso": "Especialização em Sistema Endocanabinóide"
+            }
+        ]
+    }
+]
