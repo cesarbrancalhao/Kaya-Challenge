@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-server/doctor/migrations/*
 
 # C extensions
 *.so
