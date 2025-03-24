@@ -26,7 +26,7 @@ export const getDoctors = async (params: {
     if (params.especialidade) queryParams.append('especialidade', params.especialidade);
     if (params.order_by) queryParams.append('order_by', params.order_by);
 
-    const response = await fetch(`${API_URL}/api/doctors/?${queryParams}`);
+    const response = await fetch(`${API_URL}/doctor/?${queryParams}`);
     if (!response.ok) throw new Error('Failed to fetch doctors');
     return response.json();
 };

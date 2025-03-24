@@ -7,12 +7,16 @@ class FormationSerializer(s.ModelSerializer):
         fields = ['instituicao', 'curso']
 
 class DoctorSerializer(s.ModelSerializer):
+    especialidade = s.SerializerMethodField()
     formacoes = FormationSerializer(many=True, required=False)
 
     class Meta:
         model = Doctor
         fields = '__all__'
         read_only_fields = ['dataCriacao']
+
+    def get_especialidade(self, obj):
+        return obj.especialidade_display
 
     def validate(self, data):
         required_fields = [

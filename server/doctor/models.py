@@ -37,6 +37,10 @@ class Doctor(models.Model):
     experiencia_cannabis = models.TextField()
     dataCriacao = models.DateTimeField(auto_now_add=True)
 
+    @property
+    def especialidade_display(self):
+        return dict(ESPECIALIDADES).get(self.especialidade, self.especialidade)
+
     class Meta:
         db_table = 'doctor_doctor'
         managed = True

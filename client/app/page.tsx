@@ -165,7 +165,7 @@ export default function Home() {
                         {error && (
                             <p className="text-red-500 mb-4">{error}</p>
                         )}
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 gap-6">
                             {loading ? (
                                 <p>Carregando...</p>
                             ) : doctors.length === 0 ? (
