@@ -28,12 +28,12 @@ const Footer: React.FC = () => {
 						<h3 className="text-3xl mb-4 font-[family-name:var(--font-marvin-visions)]">MÉDICOS</h3>
 						<ul className="space-y-3">
 							<li>
-								<Link href="/funcionalidades" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									Funcionalidades do Kaya Doc
 								</Link>
 							</li>
 							<li>
-								<Link href="/faq-medicos" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									FAQ
 								</Link>
 							</li>
@@ -44,22 +44,22 @@ const Footer: React.FC = () => {
 						<h3 className="text-3xl mb-4 font-[family-name:var(--font-marvin-visions)]">PACIENTES</h3>
 						<ul className="space-y-3">
 							<li>
-								<Link href="/tornar-paciente" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									Gostaria de me tornar paciente
 								</Link>
 							</li>
 							<li>
-								<Link href="/beneficios-cannabis" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									Benefícios da cannabis
 								</Link>
 							</li>
 							<li>
-								<Link href="/glossario" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									Glossário canábico
 								</Link>
 							</li>
 							<li>
-								<Link href="/faq-pacientes" className="hover:text-lime-200 transition">
+								<Link href="#" className="hover:text-lime-200 transition">
 									FAQ
 								</Link>
 							</li>

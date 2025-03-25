@@ -108,19 +108,19 @@ const Header = () => {
                         
                         {pctOpen && (
                             <div className="absolute z-10 mt-2 w-48 bg-zinc-800 rounded-md shadow-lg py-1">
-                                <Link href="/pct-1" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
+                                <Link href="#" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
                                     Médicos Prescritores
                                 </Link>
-                                <Link href="/pct-2" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
+                                <Link href="#" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
                                     Benefícios da Cannabis
                                 </Link>
-                                <Link href="/pct-3" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
+                                <Link href="#" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
                                     Glossário Canábico
                                 </Link>
-                                <Link href="/pct-4" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
+                                <Link href="#" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
                                     Blog da Saúde
                                 </Link>
-                                <Link href="/pct-5" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
+                                <Link href="#" className="block px-4 py-2 hover:bg-lime-900 text-lime-200">
                                     Condições Médicas
                                 </Link>
                             </div>
