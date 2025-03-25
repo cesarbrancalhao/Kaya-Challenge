@@ -5,6 +5,7 @@ import Header from "@/components/shared/Header";
 import Card from "@/components/ui/Card";
 import { getDoctors, type Doctor } from "@/services/api";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 const fallbackDoctors: Doctor[] = [
     {
@@ -32,6 +33,7 @@ export default function Home() {
     const [doctors, setDoctors] = useState<Doctor[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
+    const router = useRouter();
 
     const fetchDoctors = async () => {
         try {
@@ -77,59 +79,59 @@ export default function Home() {
                                 <label htmlFor="especialidade-all" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">TODAS</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-1" value="Clínico Geral" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-1" value="CG" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-1" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Clínico Geral</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-2" value="Medicina Preventiva e Social" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-2" value="PS" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-2" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Medicina Preventiva e Social</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-3" value="MEDICINA DO TRABALHO" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-3" value="MT" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-3" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA DO TRABALHO</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-4" value="MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 21312 " className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
-                                <label htmlFor="especialidade-4" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 21312 </label>
+                                <input type="radio" name="especialidade" id="especialidade-4" value="FC2" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <label htmlFor="especialidade-4" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 21312</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-5" value="MEDICINA PREVENTIVA E SOCIAL - RQE Nº: 39217" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-5" value="PS2" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-5" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA PREVENTIVA E SOCIAL - RQE Nº: 39217</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-6" value="Medicina Integrativa" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-6" value="MI" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-6" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Medicina Integrativa</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-7" value="Pós graduação em Psiquiatria / Medicina Canabinóide." className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-7" value="PC" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-7" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Pós graduação em Psiquiatria / Medicina Canabinóide.</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-8" value="Dentista" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-8" value="DT" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-8" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Dentista</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-9" value="MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 6198 " className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
-                                <label htmlFor="especialidade-9" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 6198 </label>
+                                <input type="radio" name="especialidade" id="especialidade-9" value="FC1" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <label htmlFor="especialidade-9" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">MEDICINA DE FAMÍLIA E COMUNIDADE - RQE Nº: 6198</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-10" value="Radiologia e diagnóstico por imagem" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-10" value="RI" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-10" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Radiologia e diagnóstico por imagem</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-11" value="Generalista | Medicina Endocanabinóide" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-11" value="GE" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-11" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Generalista | Medicina Endocanabinóide</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-12" value="Medicina Funcional Integrativa " className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
-                                <label htmlFor="especialidade-12" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Medicina Funcional Integrativa </label>
+                                <input type="radio" name="especialidade" id="especialidade-12" value="FI" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <label htmlFor="especialidade-12" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Medicina Funcional Integrativa</label>
                             </div>
                             <div>
                                 <input type="radio" name="especialidade" id="especialidade-13" value="None" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-13" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">None</label>
                             </div>
                             <div>
-                                <input type="radio" name="especialidade" id="especialidade-14" value="Medicina de Família e Comunidade" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
+                                <input type="radio" name="especialidade" id="especialidade-14" value="FC" className="hidden peer" onChange={(e) => setSelectedEspecialidade(e.target.value)} />
                                 <label htmlFor="especialidade-14" className="px-10 py-1 text-xs font-bold uppercase rounded-lg cursor-pointer bg-lime-200 peer-checked:bg-lime-600 hover:bg-lime-600">Medicina de Família e Comunidade</label>
                             </div>
                         </div>
@@ -179,8 +181,8 @@ export default function Home() {
                                         especialidade={doctor.especialidade}
                                         valor={doctor.valor}
                                         tempo={doctor.tempo}
-                                        onSchedule={() => {}}
-                                        onSeeMore={() => {}}
+                                        onSchedule={() => router.push(`/${doctor.id}/perfil`)}
+                                        onSeeMore={() => router.push(`/${doctor.id}/perfil`)}
                                     />
                                 ))
                             )}

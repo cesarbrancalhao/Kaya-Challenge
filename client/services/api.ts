@@ -20,6 +20,12 @@ export interface Doctor {
     convenio?: boolean;
     retorno?: number;
     experiencia_cannabis?: string;
+    formacoes?: Formation[];
+}
+
+export interface Formation {
+    instituicao: string;
+    curso: string;
 }
 
 export interface DoctorResponse {
