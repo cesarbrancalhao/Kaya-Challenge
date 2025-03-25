@@ -147,7 +147,7 @@ export default function Home() {
                             <h3 className="text-xl font-semibold text-gray-800">
                                 Filtros
                             </h3>
-                            <div className="flex gap-5">
+                            <div className="flex gap-5 mt-2">
                                 <div>
                                     <input type="radio" name="order_by" id="filtro-lowest-price" value="lowest_price" className="hidden peer" onChange={(e) => setOrderBy(e.target.value)} />
                                     <label htmlFor="filtro-lowest-price" className="block px-4 py-[6px] text-xs font-bold text-gray-500 bg-gray-300 cursor-pointer rounded-xl peer-checked:text-lime-800 peer-checked:bg-lime-200">MENOR VALOR</label>
@@ -179,8 +179,8 @@ export default function Home() {
                                         especialidade={doctor.especialidade}
                                         valor={doctor.valor}
                                         tempo={doctor.tempo}
-                                        onSchedule={() => alert(`Agendar com ${doctor.nome}`)}
-                                        onSeeMore={() => alert(`Ver mais sobre ${doctor.nome}`)}
+                                        onSchedule={() => {}}
+                                        onSeeMore={() => {}}
                                     />
                                 ))
                             )}

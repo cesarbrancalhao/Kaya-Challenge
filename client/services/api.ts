@@ -4,9 +4,22 @@ export interface Doctor {
     id: number;
     foto: string;
     nome: string;
-    especialidade: string;
     valor: number;
     tempo: number;
+    especialidade: string;
+    crm?: string;
+    cidade?: string;
+    estado?: string;
+    visualizacoes?: number;
+    nota?: number;
+    instagram?: string;
+    facebook?: string;
+    descricao?: string;
+    patologias?: string[];
+    atendimentos?: string[];
+    convenio?: boolean;
+    retorno?: number;
+    experiencia_cannabis?: string;
 }
 
 export interface DoctorResponse {
@@ -30,3 +43,9 @@ export const getDoctors = async (params: {
     if (!response.ok) throw new Error('Failed to fetch doctors');
     return response.json();
 };
+
+export const getDoctor = async (id: number): Promise<Doctor> => {
+    const response = await fetch(`${API_URL}/doctor/${id}/`);
+    if (!response.ok) throw new Error('Failed to fetch doctor');
+    return response.json();
+}
